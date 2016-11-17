@@ -1,0 +1,96 @@
+body{
+  background: #dedede;
+  font-family: SimHei;
+}
+header{
+  /*float: left;*/
+  height: 70px;
+  /*width: 1200px;*/
+  background-color: #333333;
+}
+#logo{
+  float: left;
+  padding: 10px 10px;
+}
+#headright{
+  float: right;
+  margin: 10px 10px;
+}
+#headright li{
+  float: left;
+  margin: 15px 10px;
+}
+#headright a{
+  text-decoration:none;
+  font-family: SimHei;
+  font-size: 10px;
+  color: white;
+}
+article,aside{
+  margin:30px;
+  padding:20px;
+  background:white;
+  box-shadow:1px 1px 2px 1px #848484;
+}
+article h1,h2{
+  margin: 12px 0px;
+}
+article h2{
+  color: gray;
+  font-size: 15px;
+}
+.articleauthor, .articletime{
+  font-size: 12px;
+  color: gray;
+}
+
+p{
+  text-indent: 2em;
+  margin-top: 10px;
+}
+.liebiao li{
+  list-style: none;
+  margin-left: 25px;
+  line-height: 25px;
+}
+figure{
+  width: 100px;
+  height: 100px;
+  margin: 10px 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+figure figcaption{
+  font-size: 10px;
+  text-align: center;
+  margin-bottom: 3px;
+}
+figure img{
+  width: 100px;
+  height: 86px;
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+table th{
+  text-align: left;
+  background: black;
+  color: white;
+}
+table,td,th,tr{
+  border: 1px solid #cccccc;
+  height: 25px;
+}
+#lastrow{
+  background: #ccc;
+}
+aside h2{
+  margin:
+}
+form{
+  margin-left: 20%;
+}
+.tips{
+  width: 100px;
+}
