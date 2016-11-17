@@ -6,7 +6,7 @@
     <link href="css/task_1-2.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header>
+    <div class="pagehead">
       <div id="logo">
       <img src="image/logo.png" alt="" />
       </div>
@@ -18,7 +18,7 @@
           <li><a href="#">导航链接一</a></li>
         </ul>
       </div>
-    </header>
+    </div>
 
     <div class="pagebody">
         <article class="">
@@ -126,18 +126,18 @@
           <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
           <form class="" action="index.html" method="post">
             <div>
-              <label class="tips"><span>请输入邮箱地址:</span></label>
+              <label class="tips">请输入邮箱地址：</label>
               <input type="text" name="name" value="这是一个文本输入框">
-              <p>邮箱地址请按要求格式输入</p>
+              <p><span>邮箱地址请按要求格式输入</span></p>
             </div>
             <div class="">
-              <label class="tips"><span>请输入密码:</span></label>
+              <label class="tips">请输入密码：</label>
               <input type="password" name="name" value="这是一个文本输入框">
             </div>
             <div>
-              <label class="tips"><span>请重复输入密码：</span></label>
+              <label class="tips">请重复输入密码：</label>
               <input type="password" name="name" value="这是一个文本输入框">
-              <p>密码请为6-16位数字</p>
+              <p><span>密码请为6-16位数字<span></p>
             </div>
             <div class="">
               <label class="tips">联系地址：</label>
@@ -147,7 +147,7 @@
                 <label class="tips">性别：</label>
                 <input type="radio" id="male" name="name" value="">
                 <label for="male">男</label>
-                <input type="radio" id="female" name="name" value="">
+                <input type="radio" id="female" name="name"checked="checked"value="">
                 <label for="female">女</label>
             </div>
             <div>
@@ -160,7 +160,7 @@
                 </select>
             </div>
             <div>
-                <span class="tips">爱好:</span>
+                <lable class="tips">爱好：</lable>
                 <label for="aihao1">运动</label>
                 <input type="checkbox" id="aihao1" name="name" value="">
                 <label for="aihao2">艺术</label>
@@ -169,13 +169,15 @@
                 <input type="checkbox" id="aihao3" name="name" value="">
             </div>
             <div>
-                <span class="tips">个人描述:</span>
-                <textarea name="name" rows="2" cols="10">这是一个多行输入框，输入您的个人描述</textarea>
+                <lable class="tips">个人描述：</lable>
+                <textarea name="name" rows="8" cols="80">这是一个多行输入框，输入您的个人描述</textarea>
             </div>
-            <input type="submit" name="name" value="确认提交">
         </form>
+        <input type="submit" class="submit_button" name="name" value="确认提交">
       </aside>
     </div>
-    <footer>版权所有&copy</footer>
+    <footer>
+      <div>版权所有&copy</div>
+    </footer>
   </body>
 </html>
