@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>三栏式布局</title>
+    <link rel="stylesheet" href="css/task_1-3.css" media="screen" title="no title">
+  </head>
+  <body>
+    <div class="div_parent">
+      <div class="div_left">
+          <img class="teamLogo" src="image/teamlogo.jpg" alt="" />
+          <span>莫雄雄屌炸天啊吊炸天</span>
+      </div>
+      <div class="div_right">
+        <img class="tou_photo" src="image/TeamerLogo1.jpg" alt="" />
+        <img class="tou_photo" src="image/TeamerLogo2.jpg" alt="" />
+        <img class="tou_photo" src="image/TeamerLogo3.jpg" alt="" />
+        <img class="tou_photo" src="image/TeamerLogo4.jpg" alt="" />
+      </div>
+      <div class="div_middle">
+        <p>
+          这里的左中右三个div的顺序是可以任意调整的，这与剩下的两中方法就不一样了，需要注意一下。
+          此方法的优点是，理解容易，上手简单，受内部元素影响而破坏布局的概率低，就是比较经得起折腾。
+          缺点在于：如果中间栏含有最小宽度限制，或是含有宽度的内部元素，当浏览器宽度小到一定程度，
+          会发生层重叠的情况。然而，一般情况下，除非用户显示器分辨率宽度>=1600像素，否则用户不会把
+          浏览器缩小到1000像素以下的，所以该缺陷危害指数3.这种方法是在实际的网站中应用的最多的，我
+          个人感觉多少有些跟风的嫌疑。此方法很难用一句话概括。首先，中间的主体要使用双层标签。外层
+          div宽度100%显示，并且浮动（本例左浮动，下面所述依次为基础），内层div为真正的主体内容，
+          含有左右210像素的margin值。左栏与右栏都是采用margin负值定位的，左栏左浮动，margin-left
+          为-100%，由于前面的div宽度100%与浏览器，所以这里的-100%margin值正好使左栏div定位到了页
+          面的左侧；右侧栏也是左浮动，其margin-left也是负值，大小为其本身的宽度即200像素。
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

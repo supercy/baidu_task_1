@@ -1,0 +1,47 @@
+body{
+  margin: 0px;
+  padding: 20px;
+}
+div{
+  border: 1px solid #999;
+  padding: 20px;
+}
+p{
+  margin: 0;
+}
+.div_parent{
+  overflow: hidden;
+  background:#eee;
+  height: 100%;
+}
+.div_left{
+  position: relative;
+  padding: 20px;
+  float: left;
+  width: 160px;
+}
+.teamLogo{
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+span{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+.div_middle{
+  margin: 0 140px 0 220px;
+  width: auto;
+}
+.div_right{
+  padding: 0 20px 20px 20px;
+  font-size: 0;
+  float: right;
+  width: 80px;
+}
+.tou_photo{
+  margin-top: 20px;
+  width: 80px;
+  height: 80px;
+}
